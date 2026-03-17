@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Aryan Chopra — Front-end Developer portfolio" />
+  <title>Aryan Chopra — Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header -->
+  <header class="site-header" role="banner" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Aryan Chopra homepage">
+        <span class="brand-logo" aria-hidden="true">AC</span>
+        <span class="brand-text">Aryan Chopra</span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Open menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+
+        <ul id="primary-menu" class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">
+  <!-- Sun / Moon icon -->
+  <img src="images/icon.png" alt="Theme toggle icon" class="theme-icon" />
+</button>
+
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- HERO -->
+    <section id="home" class="section hero">
+      <div class="container grid-2">
+        <div class="hero-text">
+          <p class="eyebrow">Hi, I'm</p>
+          <h1>Aryan Chopra</h1>
+          <p class="lead">Python Developer — building intelligent, scalable, and efficient AI-powered applications.</p>
+
+          <div class="cta-group">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn primary" href="assets/Aryan Chopra_Resume.pdf" download>Download CV</a>
+          </div>
+
+          <ul class="socials" aria-label="Social links">
+            <li><a href="https://github.com/Aryan71449" aria-label="GitHub">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/aryan-chopra-b555b8354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn">LinkedIn</a></li>
+          </ul>
+        </div>
+
+        <div class="hero-media">
+          <img src="images/profile.png" alt="Portrait illustration of Aryan" width="520" height="520">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="container grid-2">
+        <div class="about-media">
+         <img src="images/illustrator.png" 
+         alt="Working at desk illustration" 
+        style="width:100%; height:400px; object-fit:cover; border-radius:14px; display:block;">
+
+        </div>
+        <div>
+          <h2>About Me</h2>
+          <p>I'm Aryan Chopra, I’m a Python programmer passionate about building intelligent, scalable, and practical applications. I love solving problems with clean, efficient code and exploring areas like Artificial Intelligence, Machine Learning, Computer Vision, and Automation. Using Python’s powerful ecosystem, I turn ideas into real-world solutions that are reliable, maintainable, and user-friendly.</p>
+          <ul class="highlights">
+           <li>Proficient in Python programming and scripting</li>
+           <li>Experience with AI, Machine Learning & Computer Vision</li>
+           <li>Hands-on projects: Sign Language Translator, Motion Detector, AI PDF Reader</li>
+           <li>Skilled with libraries like OpenCV, TensorFlow, and LangChain</li>
+           <li>Strong problem-solving and algorithmic thinking</li>
+           <li>Focused on building clean, scalable, and efficient solutions</li>
+           <li>Knowledge of web technologies for integration (HTML, CSS, JS)</li>
+
+          </ul>
+          <a class="btn" href="#contact">Let's work together</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="center">Skills</h2>
+        <div class="skills-grid">
+
+    
+                <article class="card">
+                <h3>Python</h3>
+                <p>Data analysis, OpenCV, AI/ML projects.</p>
+                </article>
+    
+                <article class="card">
+                <h3>Artificial Intelligence</h3>
+                <p>LangChain, Ollama, Gradio, TensorFlow basics.</p>
+                </article>
+    
+                <article class="card">
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript, responsive design.</p>
+                </article>
+    
+                <article class="card">
+                <h3>Databases</h3>
+                <p>MySQL, SQLite, data management.</p>
+                </article>
+    
+                <article class="card">
+                <h3>Electronics & IoT</h3>
+                <p>ESP32, sensors, BMS integration.</p>
+                </article>
+    
+                <article class="card">
+                 <h3>Problem Solving</h3>
+                 <p>Logical thinking, debugging, optimization.</p>
+                </article>
+
+        </div>
+    </section>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="center">Featured Projects</h2>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <img src="images/Ai_pdf_reader.png" alt="Project 1 preview">
+            <div class="project-content">
+              <h3>AI PDF Reader</h3>
+              <p>Python-based AI tool that reads PDFs and answers your questions using LangChain and Ollama.</p>
+
+              <div class="project-actions">
+                <a class="btn small" href="https://github.com/Aryan71449/Ai_Pdf_Reader" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="images/Sign_Language_Translator.png" alt="Project 2 preview">
+            <div class="project-content">
+            <h3>Sign Language Translator</h3>
+            <p>A Python-based tool that translates sign language gestures into text in real-time, making communication easier and more accessible.</p>
+
+              <div class="project-actions">
+                <a class="btn small" href="https://github.com/Aryan71449/Sign_language_translator" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="images/Motion_detector.png" alt="Project 3 preview">
+            <div class="project-content">
+              <h3>Motion Detector</h3>
+              <p>Python-based motion detector that sends instant email alerts with snapshots and logs detected movements.</p>
+
+              <div class="project-actions">
+                <a class="btn small" href="https://github.com/Aryan71449/Motion_detector" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container grid-2">
+        <div>
+          <h2>Contact</h2>
+          <p>Have a project in mind or just want to say hi? Drop a message and I'll get back to you.</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> chopraaryan012@gmail.com</li>
+            <li><strong>Location:</strong> India</li>
+          </ul>
+        </div>
+
+<!-- Contact -->
+<section class="contact section" id="contact">
+  <h2 class="section__title">Contact Me</h2>
+  <div class="contact__container container">
+    <form action="https://formspree.io/f/xeolpyya" method="POST" class="contact__form" id="contact-form">
+      
+      <div class="input-group">
+        <input type="text" name="name" required />
+        <label>Your Name</label>
+      </div>
+
+      <div class="input-group">
+        <input type="email" name="email" required />
+        <label>Your Email</label>
+      </div>
+
+      <div class="input-group">
+        <textarea name="message" required></textarea>
+        <label>Your Message</label>
+      </div>
+
+      <button type="submit" class="btn">Send Message</button>
+
+      <div id="form-success" class="form-success">✅ Your message was sent successfully!</div>
+    </form>
+  </div>
+</section>
+
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© <span id="year"></span> Aryan Chopra. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
